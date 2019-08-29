@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RxLibraries Sample</string>
+    <string name="btn_permission">Rx Permission Sample</string>
+    <string name="btn_preferences">Rx Preferences Sample</string>
+    <string name="btn_lifecycle">Rx lifecycle Sample</string>
+    <string name="permission_text">Sample using RxPermissions, in this example we are requesting for the \"CALL_PHONE\" request in order to make a phone call directly from the app.</string>
+    <string name="rxpermission_library">RxPermissions is using the RxJava library for making permession requests and checks with less boilerplate code and more reactive way.</string>
+    <string name="btn_clear_cahce">Clear Cache</string>
+    <string name="input_number_hint">xx xxx xxx</string>
+    <string name="input_number_text">Enter the number you wish to call</string>
+</resources>

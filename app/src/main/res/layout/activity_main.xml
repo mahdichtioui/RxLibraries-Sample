@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:gravity="center_horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:layout_marginTop="40dp"
+           android:layout_marginHorizontal="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textColor="@color/colorTextPrimary"
+           android:text="@string/permission_text"
+           android:textAlignment="center"/>
+
+       <Button
+           android:id="@+id/btn_permission"
+           android:layout_margin="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/btn_permission"
+           android:textColor="@color/white"
+           android:background="@drawable/btn_secondary"/>
+
+       <Button
+           android:id="@+id/btn_preferences"
+           android:layout_margin="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/btn_preferences"
+           android:textColor="@color/white"
+           android:background="@drawable/btn_secondary"/>
+
+       <Button
+           android:id="@+id/btn_lifecycle"
+           android:layout_margin="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/btn_lifecycle"
+           android:textColor="@color/white"
+           android:background="@drawable/btn_secondary"/>
+
+   </LinearLayout>
+
+</RelativeLayout>
