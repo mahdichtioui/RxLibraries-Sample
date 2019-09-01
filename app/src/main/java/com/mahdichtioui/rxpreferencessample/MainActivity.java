@@ -4,7 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Toast;
 
+import com.mahdichtioui.rxpreferencessample.samples.binding.BindingActivity;
 import com.mahdichtioui.rxpreferencessample.samples.permissions.PermissionsActivity;
 
 import butterknife.ButterKnife;
@@ -31,12 +33,17 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.btn_preferences)
     public void onPreferencesBtnClicked(View view){
-        startActivity(new Intent(MainActivity.this, PermissionsActivity.class));
+        Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show();
     }
 
     @OnClick(R.id.btn_lifecycle)
     public void onLifecycleBtnClicked(View view){
-        startActivity(new Intent(MainActivity.this, PermissionsActivity.class));
+        Toast.makeText(this, "Coming Soon", Toast.LENGTH_SHORT).show();
+    }
+
+    @OnClick(R.id.btn_binding)
+    public void onBindingBtnClicked(View view){
+        startActivity(new Intent(MainActivity.this, BindingActivity.class));
     }
 
     @Override

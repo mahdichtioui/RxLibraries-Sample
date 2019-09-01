@@ -18,7 +18,7 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:textColor="@color/colorTextPrimary"
-           android:text="@string/permission_text"
+           android:text="@string/rx_libraries_text"
            android:textAlignment="center"/>
 
        <Button
@@ -45,6 +45,15 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:text="@string/btn_lifecycle"
+           android:textColor="@color/white"
+           android:background="@drawable/btn_secondary"/>
+
+       <Button
+           android:id="@+id/btn_binding"
+           android:layout_margin="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/btn_binding"
            android:textColor="@color/white"
            android:background="@drawable/btn_secondary"/>
 
